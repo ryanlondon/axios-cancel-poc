@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="index.js"></script>
+		<title>Axios Cancel PoC</title>
+	</head>
+	<body>
+		<input id="toggle-cancel" type="checkbox" /><label for="toggle-cancel">Use Axios Cancel?</label><br />
+		<button style="background-color: red;" id="fetch-slow">Get data slowly</button>
+		<button style="background-color: lightgreen;" id="fetch-fast">Get data quickly</button>
+		<div>
+			<h3>Data shows up below...</h3>
+			<p id="data"></p>
+		</div>
+	</body>
+</html>
